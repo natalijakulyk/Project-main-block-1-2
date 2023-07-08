@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.n_main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* -------- B L O C K  1 --------  */
+
+.wlcm_background{
+    width: 1200px;
+    height: 100vh;
+    padding: 20px;
+    background-color: rgba(27, 55, 100, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.wlcm_img {
+    width: 460px;
+}
+.wlcm_block {
+    width: 590px;
+    height: 510px;
+    margin-top: 50px;
+    margin-right:  50px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.wlcm_title {
+    width: 590px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.rectangle_wlcm {
+    width: 35px;
+    height: 2px;
+    margin-top: 15px;
+    margin-right: 15px;
+    background-color: rgba(255, 202, 66, 1);
+
+}
+.wlcm_text {
+    font-family: Cardo;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+.your_book {
+    width: 590px;
+    height: 255px;
+}
+.your_books_from {
+    font-family: Cardo;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+.the_best_writer {
+    font-family: Cardo;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+.yr_bk {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 24px;
+    color: rgba(180, 199, 231, 1); 
+}
+.yur_bok {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(180, 199, 231, 1); 
+}
+.order_td {
+    width: 590px;
+    height: 90px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.button_td {
+    width: 200px;
+    height: 60px;
+    background-color: rgba(255, 202, 66, 1);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(27, 55, 100, 1);
+    cursor: pointer;
+}
+.text_td {
+    margin: 19px 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.txt_td {
+    font-family: Cardo;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+.rectangle_td {
+    width: 112px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.list {
+    width: 590px;
+    height: 110px;
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    align-items: left;
+    flex-direction: row;
+}
+.list_pages {
+    width: 169px;
+    height: 65px;
+    display: flex;
+    align-items: left;
+}
+.rectangl_img {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+.pages {
+    width: 170px;
+    height: 65px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+.page_txt {
+    font-family: Cardo;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+.number_pages {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    margin: 12px 0;
+    color: rgba(180, 199, 231, 1);
+}
+.list_length {
+    width: 169px;
+    height: 65px;
+    display: flex;
+    align-items: left;
+}
+.length {
+    width: 180px;
+    height: 65px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+.length_txt {
+    font-family: Cardo;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+.length_hour {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    margin: 12px 0;
+    color: rgba(180, 199, 231, 1);
+}
+.list_rating {
+    width: 250px;
+    height: 65px;
+    display: flex;
+    align-items: left;
+}
+.rating {
+    width: 245px;
+    height: 65px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+.rating_txt {
+    font-family: Cardo;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+.rating-1 {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    margin: 12px 0;
+    color: rgba(180, 199, 231, 1);
+}
+
+
+
+/* -------- B L O C K  2 --------  */
+
+
+
+.n_autors {
+    width: 1200px;
+    height: 600px;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.n_autors__title {
+    font-family: Cardo;
+    font-size: 42px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(27, 55, 100, 1);
+    margin-bottom: 25px;
+}
+.n_autors__line{
+    width: 70px;
+    height: 5px;
+    background-color: rgba(255, 202, 66, 1);
+}
+.n_block {
+    width: 1200px;
+    height: 500px;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* CARD 1 */
+
+.n_block_1 {
+    width: 630px;
+    height: 380px;
+    display: flex;
+    margin: 0 30px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.n_block_2 {
+    width: 630px;
+    height: 380px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.n_block_img {
+    width: 285px;
+    height: 382px;
+}
+.n_block_1_box {
+    width: 315px;
+    height: 350px;
+}
+.n_block_2_box_title {
+    width: 315px;
+    height: 96px;
+}
+.n_block_2_text {
+    font-weight: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Cardo', serif;
+    font-size: 32px;
+    color:rgba(27, 55, 100, 1);   
+    float: inline-start;
+}
+.n_block_2_text_2 {
+    font-weight: 400px;
+    margin: 7px 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    color: rgba(255, 202, 66, 1);
+    float: inline-start;
+}
+.n_block_2_text_3 {
+    font-weight: 400px;
+    margin-left: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: rgba(150, 154, 160, 1);
+}
+.n_printed_book {
+    margin: 10px 20px;
+    display: flex;
+    align-items: left;
+    flex-direction: row;
+}
+.rectangl_img{
+    width: 16px;
+    height: 16px;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+.n_block_2_text_4 {
+    font-weight: 400px;
+    font-family: 'Cardo', serif;
+    font-size: 24px;
+    text-align: left;
+    color:rgba(27, 55, 100, 1);    
+}
+.order_now_button {
+    width: 200px;
+    height: 60px;
+    margin: 10px 20px;
+    border: 2px solid rgba(255, 202, 66, 1);
+    background-color: white;
+    cursor: pointer;
+}
+
+/* CARD 2 */
+
+.n_block_2_box {
+    width: 315px;
+    height: 350px;
+}
